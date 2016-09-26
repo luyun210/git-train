@@ -23,8 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  *
  */
 require_once(dirname(__FILE__) . '/wechat-php-sdk/wechat.class.php');
-11111
-22222
+
 class CI_Wechat extends Wechat {
     protected $_CI;
     public function __construct() {
